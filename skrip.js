@@ -18,7 +18,7 @@ var psnk1 = "<b class='alt'>";
     var psnk2 = "<br><br>";
     var psnk3 = "</b><br><br>";
     var pesanKeempat = psnk1 + pesanKeempatAtas + psnk2 + pesanKeempatTengah + psnk3 + pesanKeempatBawah + "<br><span id='tgl'>💌</span>";
-    
+
 kalimat3ngetik.innerHTML = pesanKeempat;
 pesanWA.innerHTML = pesanWA;
 tgl.innerHTML += " " + today;
@@ -83,7 +83,7 @@ function ftmuncul(){
   if(ftganti==7){fotostiker.src = fotostiker8.src;}
   if(ftganti==8){fotostiker.src = fotostiker9.src;}
   if(ftganti==9){fotostiker.src = fotostiker10.src;}
-  
+
   fotostiker.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";
 }
 function fthilang(){fotostiker.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(.1)";}
@@ -110,7 +110,7 @@ function prbhn(){if (opsLcheck == jumlahP - 1) {kecepatan=55;/*var prg = documen
 
 function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
 //document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
-async function menuju(){window.location = "https://www.facebook.com/tnamtricklo205?mibextid=ZbWKwL + pesanwhatsapp;muncultombol3"();}
+async function menuju(){window.location = "https://www.m.me/tnamtricklo205" + pesanwhatsapp;muncultombol3();}
 
 kecepatan = 45;
 function mulaiketik1(){
@@ -173,7 +173,7 @@ function myCheck() {
 
 if(opsLclick==1){
 if (opsLcheck !== jumlahP) {
-  
+
   if(document.getElementById("kalimat" + opsLcheck + "ngetik")){
       vketik1 = kalimatList[opsLcheck];
       prbhn();mulaiketik1();
@@ -185,7 +185,7 @@ if (opsLcheck !== jumlahP) {
       otokal();
       kalimat.innerHTML = teksganti;
   }
-  
+
   ftganti += 1;fthilang();setTimeout(ftmuncul, 300);
   opsLcheck+=1;wpcheck();
   if (opsLcheck == 2) {setTimeout(muncultombol,500);}
@@ -200,4 +200,4 @@ opsL.style.opacity="0";opsLclick=0;
 function fungsimau(){Tombol.style="";if(fungtom<3){setTimeout(function(){opsLclick=1;myCheck()},400)} else {menuju()}}
 function muncultombol(){resetPosisi();fungtom=1;Tombol.style="opacity:1;transform:scale(1)";}
 function muncultombol2(){resetPosisi();fungtom=2;By.innerHTML=penggantiBy.innerHTML;Bn.innerHTML=penggantiBn.innerHTML;Tombol.style="opacity:1;transform:scale(1)";}
-function muncultombol3(){fungtom=3;By.innerHTML="Yêu tui thì bấm vô 😆❤️";Bn.style="display:none";Tombol.style="opacity:1;transform:scale(1)";}
+function muncultombol3(){fungtom=3;By.innerHTML="💌 Yêu tui thì bấm dô";Bn.style="display:none";Tombol.style="opacity:1;transform:scale(1)";}

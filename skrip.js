@@ -109,8 +109,8 @@ function wpcheck(){if(opsLcheck % 2 == 0){wallpaper.style="transform: scale(1.5)
 function prbhn(){if (opsLcheck == jumlahP - 1) {kecepatan=55;/*var prg = document.getElementById("kalimat");prg.classList.add("kiri");*/}}
 
 function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
-//document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
-async function menuju(){window.location = "https://www.facebook.com/100026439672665" + pesanwhatsapp;muncultombol3();}
+  //document.getElementById("By").onclick = function() {if(fungsi==1){pertanyaan();} if(fungsi==2){menuju();}}
+  async function menuju(){await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');window.location = "https://m.facebook.com/profile.php/?id=100026439672665";}
 
 kecepatan = 45;
 function mulaiketik1(){

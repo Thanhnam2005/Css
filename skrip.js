@@ -110,7 +110,7 @@ function prbhn(){if (opsLcheck == jumlahP - 1) {kecepatan=55;/*var prg = documen
 
 function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   //document.getElementById("By").onclick = function() {if(fungsi==1){pertanyaan();} if(fungsi==2){menuju();}}
-  async function menuju(){await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');window.location = "https://m.facebook.com/profile.php/?id=100026439672665";}
+  async function menuju(){await swals.fire('Loading Facebook!', 'Nhắn tin cho tớ nhé ❤️', 'success');window.location = "https://m.facebook.com/profile.php/?id=100026439672665";}
 
 kecepatan = 45;
 function mulaiketik1(){
